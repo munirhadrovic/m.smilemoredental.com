@@ -26,7 +26,7 @@ if(isset($_POST['mail'])){
     $first_name = $_POST['naam']; // required
     $email_from = $_POST['mail']; // required
     $telephone = $_POST['telefoon']; // not required
-  $subject  = $_POST['onderwerp']; // not required
+    $subject  = $_POST['onderwerp']; // not required
     $comments = $_POST['bericht']; // required
 
     $error_message = "";
