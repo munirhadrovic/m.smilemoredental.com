@@ -255,7 +255,7 @@
 		    <h1><img src="img/logoo.png" alt="LOGO"></h1>
 		</div>
 		<div data-role="footer" data-theme="<?php echo $theme ?>" data-position="fixed">
-		    <h1>Powered by <a href="http://www.mobilegrows.com" rel="external">MOBILEGROWS</a><a href="http://www.smilemoredental.com/" rel="external"> | Clasic Site</a></h1>
+		    <h1>Powered by <a href="http://www.mobilegrows.com" rel="external">MOBILEGROWS</a><a href="http://www.smilemoredental.com/" rel="external"> | Classic Site</a></h1>
 		</div>
 		<!-- page 1 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
 		<div data-role="page" id="page1" data-theme="<?php echo $theme ?>">
@@ -293,7 +293,7 @@
 			    <!-- Jssor Slider End -->
 				<fieldset class="ui-grid-a" data-theme="<?php echo $theme ?>">
 					<!-- OVDJE SE UPISUJE BROJ TELEFONA KOJI TREBA POZVATI  -->
-					<div class="ui-block-a"><a class="ui-btn ui-icon-phone ui-btn-icon-left buttons-radius" href="tel:<?php echo $telephone ?>">Call US</a></div>
+					<div class="ui-block-a"><a class="ui-btn ui-icon-phone ui-btn-icon-left buttons-radius" href="tel:<?php echo $telephone ?>">CALL US</a></div>
 					<!-- ovdje se upisuje grad i adresa iz koje  -->
 					<div class="ui-block-b" id="findUS">
 						<script>
@@ -304,7 +304,7 @@
 								var dugme= document.createElement('a');
 								dugme.setAttribute('class', "ui-btn ui-icon-location ui-btn-icon-left buttons-radius");
 								dugme.setAttribute('href',"geo:0,0?q=<?php echo $adresa; ?>,<?php echo $grad; ?>,<?php echo $skracenica; ?>");
-								dugme.innerHTML="Find US";
+								dugme.innerHTML="FIND US";
 								prostordugme.appendChild(dugme);
 							}
 							else if(/iPhone|iPad|iPod/i.test(navigator.userAgent)){
@@ -313,7 +313,7 @@
 								var dugme= document.createElement('a');
 								dugme.setAttribute('class', "ui-btn ui-icon-location ui-btn-icon-left buttons-radius");
 								dugme.setAttribute('href',"http://maps.google.com/?daddr=<?php echo $adresa; ?>,<?php echo $grad; ?>,<?php echo $skracenica; ?> ");
-								dugme.innerHTML="Find US";
+								dugme.innerHTML="FIND US";
 								prostordugme.appendChild(dugme);
 							}
 							else if (ua.indexOf("BlackBerry") >= 0)
@@ -330,7 +330,7 @@
 									// var dugme= document.createElement('a');
 									// dugme.setAttribute('class', "ui-btn ui-icon-location ui-btn-icon-left buttons-radius");
 									// dugme.setAttribute('href',"javascript:blackberry.launch.newMap({'address':{'address1':'<?php echo $adresa; ?>,<?php echo $grad; ?>,<?php echo $skracenica; ?>'}});");
-									// dugme.innerHTML="Find US";
+									// dugme.innerHTML="FIND US";
 									// prostordugme.appendChild(dugme);
 									// }
 							else {
@@ -339,7 +339,7 @@
 								var dugme= document.createElement('a');
 								dugme.setAttribute('class', "ui-btn ui-icon-location ui-btn-icon-left buttons-radius");
 								dugme.setAttribute('href',"geo:0,0?q=<?php echo $adresa; ?>,<?php echo $grad; ?>,<?php echo $skracenica; ?>");
-								dugme.innerHTML="Find US";
+								dugme.innerHTML="FIND US";
 								prostordugme.appendChild(dugme);
 							}
 
